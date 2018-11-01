@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ahuviy/rxjs-store.git"
+    "url": "https://github.com/ahuviy/ng-observable-data-container.git"
   },
   "scripts": {
     "test": "node test.js"
