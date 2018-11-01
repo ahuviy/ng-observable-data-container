@@ -14,7 +14,7 @@ exports.DataContainer = function (initialState) {
         : internalSubject.getValue();
       internalSubject.next(newValue);
     },
-    toPublic: function () {
+    toReadonly: function () {
       return {
         stream: internalSubject.asObservable(),
         get value() { return internalSubject.getValue(); }
