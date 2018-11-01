@@ -1,0 +1,23 @@
+{
+  "name": "ng-observable-data-container",
+  "version": "1.0.0",
+  "description": "An RxJS-based observable data container, intended for use in Angular services.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahuviy/rxjs-store.git"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "store",
+    "rxjs",
+    "angular"
+  ],
+  "author": "Ahuvi Yearim",
+  "license": "MIT",
+  "dependencies": {
+    "rxjs": "^6.0.0"
+  }
+}
